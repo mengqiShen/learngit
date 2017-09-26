@@ -1,4 +1,4 @@
-addLoadEvent(show);
+addLoadEvent(show);//has been modified
 function addLoadEvent(func){
 	var oldLoad = window.onload;
 	if (typeof oldLoad != "function"){
